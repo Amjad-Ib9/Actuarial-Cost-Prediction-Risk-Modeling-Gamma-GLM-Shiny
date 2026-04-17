@@ -8,7 +8,12 @@
 
 ## Overview
 
-This project develops an end-to-end actuarial pricing system for health insurance using a Gamma Generalized Linear Model (GLM). The system estimates expected medical costs, classifies policyholders into risk segments, and provides interactive visualization through a Shiny dashboard.
+This project develops an end-to-end actuarial pricing system for health insurance using a Gamma GLM model and an interactive Shiny dashboard for real-time risk analysis and cost prediction.
+
+
+## Dashboard Preview
+
+![Dashboard](images.dashboard.png)
 
 ## Objectives
 
