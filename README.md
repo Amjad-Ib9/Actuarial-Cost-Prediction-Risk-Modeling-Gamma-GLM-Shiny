@@ -15,6 +15,11 @@ This project develops an end-to-end actuarial pricing system for health insuranc
 
 ![Dashboard](images/dashboard.png)
 
+
+## 🎥 Demo
+
+![Demo](images/demo.gif)
+
 ## Objectives
 
 * Predict individual insurance costs based on risk factors
