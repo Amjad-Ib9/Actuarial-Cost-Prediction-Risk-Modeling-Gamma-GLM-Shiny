@@ -13,12 +13,15 @@ This project develops an end-to-end actuarial pricing system for health insuranc
 
 ## Dashboard Preview
 
-![Dashboard](images/dashboard.png)
-
+<p align="center">
+  <img src="images/dashboard.png" width="700">
+</p>
 
 ## 🎥 Demo
 
-![Demo](images/demo.gif)
+<p align="center">
+  <img src="images/demo.gif" width="700">
+</p>
 
 ## Objectives
 
