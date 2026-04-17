@@ -1,3 +1,9 @@
+![R](https://img.shields.io/badge/R-Programming-blue)
+![GLM](https://img.shields.io/badge/Model-Gamma%20GLM-green)
+![Shiny](https://img.shields.io/badge/Dashboard-Shiny-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+
 # Actuarial Pricing & Risk Modeling (Gamma GLM + Shiny)
 
 ## Overview
