@@ -4,11 +4,11 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 
-# Actuarial Pricing & Risk Modeling (Gamma GLM + Shiny)
+# Actuarial Cost Prediction & Risk Modeling (Gamma GLM + Shiny)
 
 ## Overview
 
-This project builds an end-to-end actuarial pricing system for health insurance, combining statistical modeling (Gamma GLM) with an interactive Shiny dashboard to support real-time pricing and risk-based decision making.
+This project develops an end-to-end actuarial cost prediction and pricing support system for health insurance, translating statistical modeling (Gamma GLM) into a practical decision-making tool through an interactive Shiny dashboard.
 
 
 ## Key Visualizations
@@ -60,7 +60,7 @@ The effect of BMI on medical costs differs significantly between smokers and non
 * Predict individual insurance costs based on risk factors
 * Segment customers into risk categories (Low, Medium, High)
 * Analyze portfolio-level risk distribution
-* Build an interactive pricing tool for decision-making
+* Build an interactive cost prediction and pricing support tool
 
 ## Dataset
 
@@ -134,11 +134,12 @@ The dataset contains information on policyholders, including:
 
 ## Business Value
 
-The model helps identify high-risk policyholders who contribute disproportionately to total costs, enabling insurers to improve pricing strategies, enhance risk selection, and better manage portfolio profitability.
+The model estimates expected insurance costs and supports pricing decisions by identifying high-risk policyholders who contribute disproportionately to total costs.
 
 ## Model Validation
 
 The model was evaluated using prediction error metrics such as Mean Squared Prediction Error (MSPE), ensuring reliable cost estimation and model performance.
+
 ## Tools & Technologies
 
 * R (data analysis, modeling)
