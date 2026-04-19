@@ -43,12 +43,6 @@ Smoking is the most significant driver of medical costs. Smokers incur substanti
 The effect of BMI on medical costs differs significantly between smokers and non-smokers. While BMI has a moderate impact on non-smokers, it leads to a sharp increase in costs among smokers, indicating a strong interaction effect between these variables.
 
 
-## Dashboard Preview
-
-<p align="center">
-  <img src="images/dashboard.png" width="700">
-</p>
-
 ## 🎥 Demo
 
 <p align="center">
