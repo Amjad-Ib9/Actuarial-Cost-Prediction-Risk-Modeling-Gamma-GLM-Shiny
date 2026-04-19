@@ -10,6 +10,36 @@
 
 This project develops an end-to-end actuarial pricing system for health insurance using a Gamma GLM model and an interactive Shiny dashboard for real-time risk analysis and cost prediction.
 
+## Key Visualizations
+
+### 1. Distribution of Medical Charges
+
+<p align="center">
+  <img src="images/charges_distribution.png" width="600">
+</p>
+
+Medical insurance costs exhibit a strong right-skewed distribution, with a small number of individuals incurring very high expenses. This distribution justifies the use of a Gamma GLM, which is well-suited for modeling positive and skewed data.
+
+---
+
+### 2. Impact of Smoking on Costs
+
+<p align="center">
+  <img src="images/smoker_boxplot.png" width="600">
+</p>
+
+Smoking is the most significant driver of medical costs. Smokers incur substantially higher charges compared to non-smokers, with a clear separation between the two groups. This highlights smoking as a key risk factor in pricing.
+
+---
+
+### 3. Interaction Between BMI and Smoking
+
+<p align="center">
+  <img src="images/bmi_smoker_interaction.png" width="600">
+</p>
+
+The effect of BMI on medical costs differs significantly between smokers and non-smokers. While BMI has a moderate impact on non-smokers, it leads to a sharp increase in costs among smokers, indicating a strong interaction effect between these variables.
+
 
 ## Dashboard Preview
 
