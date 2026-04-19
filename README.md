@@ -8,8 +8,7 @@
 
 ## Overview
 
-This project develops an end-to-end actuarial pricing system for health insurance using a Gamma GLM model and an interactive Shiny dashboard for real-time risk analysis and cost prediction.
-
+This project builds an end-to-end actuarial pricing system for health insurance, combining statistical modeling (Gamma GLM) with an interactive Shiny dashboard to support real-time pricing and risk-based decision making.
 ## Key Visualizations
 
 ### 1. Distribution of Medical Charges
@@ -127,6 +126,13 @@ The dataset contains information on policyholders, including:
 * Clear segmentation exists between low-risk and high-risk groups
 * Cost distribution is highly skewed, justifying the use of Gamma GLM
 
+## Business Value
+
+The model helps identify high-risk policyholders who contribute disproportionately to total costs, enabling insurers to improve pricing strategies, enhance risk selection, and better manage portfolio profitability.
+
+## Model Validation
+
+The model was evaluated using prediction error metrics such as Mean Squared Prediction Error (MSPE), ensuring reliable cost estimation and model performance.
 ## Tools & Technologies
 
 * R (data analysis, modeling)
