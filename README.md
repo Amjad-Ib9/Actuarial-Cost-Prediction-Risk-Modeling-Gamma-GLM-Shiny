@@ -9,7 +9,10 @@
 ## Overview
 
 This project builds an end-to-end actuarial pricing system for health insurance, combining statistical modeling (Gamma GLM) with an interactive Shiny dashboard to support real-time pricing and risk-based decision making.
+
+
 ## Key Visualizations
+The following visualizations highlight the key patterns and risk drivers identified in the data:
 
 ### 1. Distribution of Medical Charges
 
@@ -125,6 +128,9 @@ The dataset contains information on policyholders, including:
 * High-risk individuals contribute disproportionately to total costs
 * Clear segmentation exists between low-risk and high-risk groups
 * Cost distribution is highly skewed, justifying the use of Gamma GLM
+* Smoking significantly amplifies the impact of BMI on costs, indicating a strong interaction effect
+
+
 
 ## Business Value
 
