@@ -32,6 +32,7 @@ This supports the use of Gamma GLM, which is designed for positive, skewed data.
 </p>
 
 Smoking is the most significant driver of medical costs, with clear separation between smokers and non-smokers.
+
 ---
 
 ### 3. Interaction Between BMI and Smoking
@@ -45,7 +46,7 @@ BMI has a significantly stronger effect on costs for smokers, indicating a clear
 ## 🎥 Demo
 
 <p align="center">
-  <img src="images/demo.gif" width="700">
+  <img src="images/demo1.gif" width="700">
 </p>
 
 ## Objectives
