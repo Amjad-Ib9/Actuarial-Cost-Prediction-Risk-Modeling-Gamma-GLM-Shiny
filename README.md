@@ -96,9 +96,9 @@ Multiple models were evaluated:
 
 Models were compared using:
 
-**MSPE (Mean Squared Prediction Error)**
-**MAE (Mean Absolute Error)**
-**AIC (Akaike Information Criterion)**
+- **MSPE (Mean Squared Prediction Error)**
+- **MAE (Mean Absolute Error)**
+- **AIC (Akaike Information Criterion)**
 
 
 👉 Although the linear model showed slightly better prediction accuracy (MSPE),
