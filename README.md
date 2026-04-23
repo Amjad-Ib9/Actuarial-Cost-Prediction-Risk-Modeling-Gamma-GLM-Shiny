@@ -8,7 +8,8 @@
 
 ## Overview
 
-This project develops an end-to-end actuarial cost prediction and pricing support system for health insurance, translating statistical modeling (Gamma GLM) into a practical decision-making tool through an interactive Shiny dashboard.
+This project develops an end-to-end actuarial cost prediction and pricing support system for health insurance.
+It bridges statistical modeling (Gamma GLM) with a practical decision-support tool through an interactive Shiny dashboard.
 
 
 ## Key Visualizations
@@ -20,8 +21,8 @@ The following visualizations highlight the key patterns and risk drivers identif
   <img src="images/charges_distribution.png" width="600">
 </p>
 
-Medical insurance costs exhibit a strong right-skewed distribution, with a small number of individuals incurring very high expenses. This distribution justifies the use of a Gamma GLM, which is well-suited for modeling positive and skewed data.
-
+Medical costs are highly right-skewed, with a small number of individuals incurring very high expenses.
+This supports the use of Gamma GLM, which is designed for positive, skewed data.
 ---
 
 ### 2. Impact of Smoking on Costs
@@ -30,8 +31,7 @@ Medical insurance costs exhibit a strong right-skewed distribution, with a small
   <img src="images/smoker_boxplot.png" width="600">
 </p>
 
-Smoking is the most significant driver of medical costs. Smokers incur substantially higher charges compared to non-smokers, with a clear separation between the two groups. This highlights smoking as a key risk factor in pricing.
-
+Smoking is the most significant driver of medical costs, with clear separation between smokers and non-smokers.
 ---
 
 ### 3. Interaction Between BMI and Smoking
@@ -40,8 +40,7 @@ Smoking is the most significant driver of medical costs. Smokers incur substanti
   <img src="images/bmi_smoker_interaction.png" width="600">
 </p>
 
-The effect of BMI on medical costs differs significantly between smokers and non-smokers. While BMI has a moderate impact on non-smokers, it leads to a sharp increase in costs among smokers, indicating a strong interaction effect between these variables.
-
+BMI has a significantly stronger effect on costs for smokers, indicating a clear interaction effect.
 
 ## 🎥 Demo
 
