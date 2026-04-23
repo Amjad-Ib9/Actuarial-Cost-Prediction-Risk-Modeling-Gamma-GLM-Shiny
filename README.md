@@ -128,7 +128,6 @@ The interactive dashboard provides:
 
 * Real-time cost prediction
 * Risk classification
-* Peer comparison within the portfolio
 * Prediction history tracking
 * Export of results as CSV
 
