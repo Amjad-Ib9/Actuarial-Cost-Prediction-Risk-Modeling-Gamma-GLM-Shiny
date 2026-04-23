@@ -55,6 +55,7 @@ BMI has a significantly stronger effect on costs for smokers, indicating a clear
 
 ## Objectives
 
+* Objectives
 * Predict individual insurance costs based on risk factors
 * Segment customers into risk categories (Low, Medium, High)
 * Analyze portfolio-level risk distribution
@@ -69,6 +70,9 @@ The dataset contains information on policyholders, including:
 * Smoking status
 * Number of children
 * Medical insurance charges (target variable)
+
+https://www.kaggle.com/datasets/mirichoi0218/insurance
+
 
 ## Methodology
 
