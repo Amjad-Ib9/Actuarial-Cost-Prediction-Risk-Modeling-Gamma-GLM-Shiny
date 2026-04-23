@@ -76,67 +76,74 @@ https://www.kaggle.com/datasets/mirichoi0218/insurance
 
 ## Methodology
 
-### 1. Exploratory Data Analysis (EDA)
-
-* Identified skewed distribution of insurance costs
-* Detected strong impact of smoking on costs
+## 1. Exploratory Data Analysis (EDA)
+* Identified skewed cost distribution
+* Detected strong impact of smoking
 * Observed interaction effects between BMI and smoking
-
-### 2. Feature Engineering
-
+  
+## 2. Feature Engineering
 * Created interaction terms (BMI × Smoking)
-* Applied log transformation to handle skewness
-* Segmented variables for better interpretability
+* Applied transformations to handle skewness
+* Prepared categorical variables for modeling
 
 ### 3. Modeling
 
-* Built multiple models for comparison:
+Multiple models were evaluated:
 
-  * Linear Regression
-  * Log-Linear Model
-  * Gamma GLM (final model)
+* Linear Regression
+* Log-Linear Model
+* Gamma GLM (final model)
 
-* Selected Gamma GLM due to:
+Models were compared using:
 
-  * Positive and skewed nature of cost data
-  * Better statistical fit (AIC comparison)
-  * Interpretability in actuarial context
+## * MSPE (Mean Squared Prediction Error)
+## * MAE (Mean Absolute Error)
+## * AIC (Akaike Information Criterion)
 
-### 4. Prediction System
+👉 Although the linear model showed slightly better prediction accuracy (MSPE),
+the Gamma GLM was selected because:
 
-* Developed reusable functions for:
+* It better reflects the positive and skewed nature of insurance costs
+* It provides more appropriate actuarial interpretation
+* It balances statistical fit and real-world applicability
 
-  * Individual prediction
-  * Risk classification
-  * Batch prediction (portfolio-level analysis)
+## 4. Prediction System
 
-### 5. Portfolio Analysis
+Reusable functions were developed for:
 
+* Individual predictions
+* Risk classification
+* Batch predictions (portfolio-level analysis)
+
+## 5. Portfolio Analysis
 * Evaluated risk distribution across policyholders
-* Identified concentration of costs among high-risk groups
-* Analyzed contribution of smoking to overall risk
+* Measured cost contribution by risk segment
+* Identified concentration of costs in high-risk groups
+* Analyzed relationship between smoking and risk
 
-### 6. Shiny Dashboard
+## 6. Shiny Dashboard
 
-* Built an interactive dashboard for:
+The interactive dashboard provides:
 
-  * Real-time cost prediction
-  * Risk classification
-  * Visualization of client position within the portfolio
+* Real-time cost prediction
+* Risk classification
+* Peer comparison within the portfolio
+* Prediction history tracking
+* Export of results as CSV
 
 ## Key Insights
 
-* Smoking is the most significant risk driver
-* High-risk individuals contribute disproportionately to total costs
-* Clear segmentation exists between low-risk and high-risk groups
-* Cost distribution is highly skewed, justifying the use of Gamma GLM
-* Smoking significantly amplifies the impact of BMI on costs, indicating a strong interaction effect
+* Smoking is the strongest risk driver
+* High-risk clients contribute disproportionately to total costs
+* Clear segmentation exists between risk groups
+* Cost distribution is highly skewed
+* BMI impact is amplified among smokers
 
 
 
 ## Business Value
 
-The model estimates expected insurance costs and supports pricing decisions by identifying high-risk policyholders who contribute disproportionately to total costs.
+The system supports pricing decisions by estimating expected costs and identifying high-risk clients.
 
 ## Model Validation
 
@@ -147,21 +154,17 @@ The model was evaluated using prediction error metrics such as Mean Squared Pred
 * R (data analysis, modeling)
 * Gamma GLM (statistical modeling)
 * Shiny (interactive dashboard)
-* GitHub (version control)
+
 
 ## Project Structure
 
-* `data/` → dataset
-* `R/` → data processing, modeling, and functions
-* `app/` → Shiny dashboard
-* `outputs/` → prediction results
+* data/ → raw dataset
+* R/ → data preparation and prediction functions
+* app/ → Shiny dashboard (UI + model deployment)
+* scripts/ → model training and portfolio analysis
+* images/ → visualizations and demo
+* outputs/ → generated prediction results
 
-## Future Improvements
-
-* API deployment for real-time pricing
-* Advanced feature engineering
-* Model validation and performance metrics
-* Integration with external data sources
 
 ## Author
 
