@@ -19,10 +19,12 @@ The following visualizations highlight the key patterns and risk drivers identif
 
 <p align="center">
   <img src="images/charges_distribution.png" width="600">
-</p>
+</p> 
 
 Medical costs are highly right-skewed, with a small number of individuals incurring very high expenses.
 This supports the use of Gamma GLM, which is designed for positive, skewed data.
+
+
 ---
 
 ### 2. Impact of Smoking on Costs
@@ -42,6 +44,8 @@ Smoking is the most significant driver of medical costs, with clear separation b
 </p>
 
 BMI has a significantly stronger effect on costs for smokers, indicating a clear interaction effect.
+
+---
 
 ## 🎥 Demo
 
