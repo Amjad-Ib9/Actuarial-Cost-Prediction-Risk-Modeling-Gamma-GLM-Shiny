@@ -55,7 +55,6 @@ BMI has a significantly stronger effect on costs for smokers, indicating a clear
 
 ## Objectives
 
-* Objectives
 * Predict individual insurance costs based on risk factors
 * Segment customers into risk categories (Low, Medium, High)
 * Analyze portfolio-level risk distribution
@@ -71,7 +70,7 @@ The dataset contains information on policyholders, including:
 * Number of children
 * Medical insurance charges (target variable)
 
-https://www.kaggle.com/datasets/mirichoi0218/insurance
+[Kaggle Insurance Dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance)
 
 
 ## Methodology
@@ -147,8 +146,13 @@ The system supports pricing decisions by estimating expected costs and identifyi
 
 ## Model Validation
 
-The model was evaluated using prediction error metrics such as Mean Squared Prediction Error (MSPE), ensuring reliable cost estimation and model performance.
+Model performance was evaluated using:
 
+-**MSPE (prediction accuracy)**
+-**MAE (average error magnitude)**
+-**AIC (model fit and complexity)**
+
+This multi-metric evaluation ensures a balance between accuracy and statistical validity.
 ## Tools & Technologies
 
 * R (data analysis, modeling)
