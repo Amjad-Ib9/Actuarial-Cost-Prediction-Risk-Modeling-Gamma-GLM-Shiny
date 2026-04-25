@@ -143,9 +143,7 @@ install.packages(c(
 ## How to Run
 
 **Run the analysis:**
-```r
-source("analysis.R")
-```
+Open `analysis.R` in RStudio and run the code section by section.
 
 **Launch the dashboard:**
 ```r
