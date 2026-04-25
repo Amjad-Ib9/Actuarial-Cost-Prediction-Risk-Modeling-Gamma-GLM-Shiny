@@ -1,3 +1,8 @@
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge\&logo=r\&logoColor=white)
+![Shiny](https://img.shields.io/badge/Shiny-1E90FF?style=for-the-badge)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge)
+
 # Insurance Cost Prediction & Risk Classification
 
 A machine learning project that predicts healthcare insurance costs and classifies clients into risk categories using R.
