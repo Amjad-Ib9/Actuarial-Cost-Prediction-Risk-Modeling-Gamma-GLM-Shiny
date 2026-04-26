@@ -33,6 +33,8 @@ The dataset contains **1,338 records** with the following variables:
 | region | Categorical | US region (northeast / northwest / southeast / southwest) |
 | charges | Numeric | Medical insurance cost (target variable) |
 
+[Medical Cost Personal Datasets] (https://www.kaggle.com/datasets/mirichoi0218/insurance)
+
 ---
 
 ## Project Structure
