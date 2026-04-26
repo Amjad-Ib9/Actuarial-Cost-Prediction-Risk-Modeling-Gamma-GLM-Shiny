@@ -38,13 +38,13 @@ The dataset contains **1,338 records** with the following variables:
 ## Project Structure
 
 ```
-├── README.md            # Full analysis and model training
+├── README.md            
 ├── app.R                 # Shiny Dashboard
 ├── insurance.csv         # Dataset
 ├── model_linear4.rds     # Best regression model
 ├── model_RF_class.rds    # Best classification model
 ├── risk_quantiles.rds    # Risk category thresholds
-└── analysis.R
+└── analysis.R            # Full analysis and model training
 ```
 
 ---
